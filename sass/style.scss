@@ -1,0 +1,59 @@
+﻿$font-stack: 'Open Sans', sans-serif;
+$primary-color: #fff;
+$font-heavy: bold;
+$font-size: 112px;
+
+@mixin background( $direction, $color1, $color2 ){
+  background: -webkit-liner-gradient( $direction, $color1, $color2 );
+  background: -o-linear-gradient( $direction, $color1, $color2 );
+  background: -moz-linear-gradient( $direction, $color1, $color2 );
+  background: linear-gradient(to $direction, $color1, $color2 );
+}
+
+body {
+  height: 100vh;
+  padding: 25px;
+  font: 100% $font-stack;
+  background-color: $primary-color;
+  @include background( right, #4450a6, #4dbac6 );
+}
+
+.container 
+{
+  position: relative;
+  width: 90%;
+  color: $primary-color;
+}
+
+.number {
+  display: inline-block;
+  font-size: 112px;
+  font-weight: $font-heavy;
+  line-height: 0.75;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba( 141,138,138, 0.85 );
+  letter-spacing: -25px;
+}
+
+.one {
+  
+}
+
+.zero {
+  margin-left: -10px;
+}
+
+.days {
+  text-transform: uppercase;
+  font-weight: $font-heavy;
+  font-size: 96px;
+  letter-spacing: 5px;
+  line-height: 0.80;
+}
+
+.css_challenge {
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 1;
+}
+

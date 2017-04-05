@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+  padding: 25px;
+  font: 100% "Open Sans", sans-serif;
+  background-color: #fff;
+  background: -webkit-liner-gradient(right, #4450a6, #4dbac6);
+  background: -o-linear-gradient(right, #4450a6, #4dbac6);
+  background: -moz-linear-gradient(right, #4450a6, #4dbac6);
+  background: linear-gradient(to right, #4450a6, #4dbac6); }
+
+.container {
+  position: relative;
+  width: 90%;
+  color: #fff; }
+
+.number {
+  display: inline-block;
+  font-size: 112px;
+  font-weight: bold;
+  line-height: 0.75;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(141, 138, 138, 0.85);
+  letter-spacing: -25px; }
+
+.zero {
+  margin-left: -10px; }
+
+.days {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 96px;
+  letter-spacing: 5px;
+  line-height: 0.80; }
+
+.css_challenge {
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 1; }
